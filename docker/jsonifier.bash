@@ -28,8 +28,8 @@ if ! source .venv/bin/activate; then
     exit 1
 fi
 
-# echo "INPUT_FOLDER:"
-# ls -al ${INPUT_FOLDER}
+echo "INPUT_FOLDER:"
+ls -al ${INPUT_FOLDER}
 #
 # echo "INPUT_FOLDER/inputs.json:"
 # cat ${INPUT_FOLDER}/inputs.json
@@ -59,5 +59,8 @@ cd "${OUTPUT_FOLDER}" || exit 1
 #     echo "ERROR: Failed to create zip archive for ${outputs_json_dir}"
 #     exit 1
 # fi
+
+echo "OUTPUT_FOLDER:"
+ls -al ${OUTPUT_FOLDER}
 
 echo "Script completed successfully"

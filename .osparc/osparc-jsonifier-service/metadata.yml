@@ -30,7 +30,7 @@ inputs:
     description: json input file to be converted
     label: json_inputs_file
     fileToKeyMap:
-      json_inputs.json: json_inputs_file
+      values.json: json_inputs_file
     type: data:*/*
   number_input_1:
     description: number input 1
