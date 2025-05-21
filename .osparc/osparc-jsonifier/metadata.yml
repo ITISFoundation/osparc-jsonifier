@@ -171,5 +171,5 @@ outputs:
     label: Json output file
     type: data:*/*
 type: computational
-version: 0.0.3
+version: 0.0.4
 min_visible_inputs: 6

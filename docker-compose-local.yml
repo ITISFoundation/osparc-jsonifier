@@ -1,6 +1,6 @@
 services:
   osparc-jsonifier:
-    image: simcore/services/comp/osparc-jsonifier:0.0.3
+    image: simcore/services/comp/osparc-jsonifier:0.0.4
     environment:
       - INPUT_FOLDER=/tmp/inputs
       - OUTPUT_FOLDER=/tmp/outputs
