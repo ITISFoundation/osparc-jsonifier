@@ -12,7 +12,7 @@ boot-options:
         label: Default
     label: Boot mode
 contact: vangeit@itis.swiss
-description: JsonifierService
+description: Jsonifier
 inputs:
   settings:
     description: Service settings
@@ -163,7 +163,7 @@ inputs:
       type: number
 integration-version: 0.0.7
 key: simcore/services/comp/osparc-jsonifier
-name: JsonifierService
+name: Jsonifier
 outputs:
   outputs_json:
     description: json file with outputs
@@ -171,5 +171,5 @@ outputs:
     label: Json output file
     type: data:*/*
 type: computational
-version: 0.0.2
+version: 0.0.3
 min_visible_inputs: 6
