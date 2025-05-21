@@ -10,7 +10,7 @@ def main():
     template_content = yaml.safe_load(template_path.read_text())
 
     input_template = template_content["inputs"]["number_input_1"]
-    for input_i in range(1, 21):
+    for input_i in range(1, 11):
         input_string = f"number_input_{input_i}"
         if input_string in template_content["inputs"]:
             del template_content["inputs"][input_string]
@@ -24,7 +24,7 @@ def main():
         template_content["inputs"][input_string] = this_input
     
     output_template = template_content["outputs"]["number_output_1"]
-    for output_i in range(1, 21):
+    for output_i in range(1, 11):
         output_string = f"number_output_{output_i}"
         if output_string in template_content["outputs"]:
             del template_content["outputs"][output_string]

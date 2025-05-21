@@ -1,8 +1,8 @@
 name: Jsonifier
 description: Jsonifier
 type: computational
-integration-version: 0.0.5
-version: 0.0.5
+integration-version: 0.0.6
+version: 0.0.6
 key: simcore/services/comp/osparc-jsonifier-service
 authors:
 - affiliation: IT'IS Foundation
@@ -22,88 +22,16 @@ min_visible_inputs: 3
 inputs:
   settings:
     description: Service settings
-    displayOrder: 0.5
     fileToKeyMap:
       settings.json: settings
     label: Service settings
     type: data:*/*
   json_inputs_file:
     description: json input file to be converted
-    displayOrder: 1.0
     label: json_inputs_file
     fileToKeyMap:
       json_inputs.json: json_inputs_file
     type: data:*/*
-  number_input_1:
-    description: number input 1
-    label: number_input_1
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 1
-      type: number
-  number_input_2:
-    description: number input 2
-    label: number_input_2
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 2
-      type: number
-  number_input_3:
-    description: number input 3
-    label: number_input_3
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 3
-      type: number
-  number_input_4:
-    description: number input 4
-    label: number_input_4
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 4
-      type: number
-  number_input_5:
-    description: number input 5
-    label: number_input_5
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 5
-      type: number
-  number_input_6:
-    description: number input 6
-    label: number_input_6
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 6
-      type: number
-  number_input_7:
-    description: number input 7
-    label: number_input_7
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 7
-      type: number
-  number_input_8:
-    description: number input 8
-    label: number_input_8
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 8
-      type: number
-  number_input_9:
-    description: number input 9
-    label: number_input_9
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 9
-      type: number
-  number_input_10:
-    description: number input 10
-    label: number_input_10
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 10
-      type: number
   number_input_11:
     description: number input 11
     label: number_input_11
@@ -174,84 +102,83 @@ inputs:
     contentSchema:
       title: number input 20
       type: number
+  number_input_1:
+    description: number input 1
+    label: number_input_1
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 1
+      type: number
+  number_input_2:
+    description: number input 2
+    label: number_input_2
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 2
+      type: number
+  number_input_3:
+    description: number input 3
+    label: number_input_3
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 3
+      type: number
+  number_input_4:
+    description: number input 4
+    label: number_input_4
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 4
+      type: number
+  number_input_5:
+    description: number input 5
+    label: number_input_5
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 5
+      type: number
+  number_input_6:
+    description: number input 6
+    label: number_input_6
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 6
+      type: number
+  number_input_7:
+    description: number input 7
+    label: number_input_7
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 7
+      type: number
+  number_input_8:
+    description: number input 8
+    label: number_input_8
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 8
+      type: number
+  number_input_9:
+    description: number input 9
+    label: number_input_9
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 9
+      type: number
+  number_input_10:
+    description: number input 10
+    label: number_input_10
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 10
+      type: number
 outputs:
   json_outputs:
     description: json file with outputs
-    displayOrder: 1.0
     label: Json output file
     fileToKeyMap:
       values.json: json_outputs
     type: data:*/*
-  number_output_1:
-    description: number output 1
-    label: number_output_1
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 1
-      type: number
-  number_output_2:
-    description: number output 2
-    label: number_output_2
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 2
-      type: number
-  number_output_3:
-    description: number output 3
-    label: number_output_3
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 3
-      type: number
-  number_output_4:
-    description: number output 4
-    label: number_output_4
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 4
-      type: number
-  number_output_5:
-    description: number output 5
-    label: number_output_5
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 5
-      type: number
-  number_output_6:
-    description: number output 6
-    label: number_output_6
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 6
-      type: number
-  number_output_7:
-    description: number output 7
-    label: number_output_7
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 7
-      type: number
-  number_output_8:
-    description: number output 8
-    label: number_output_8
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 8
-      type: number
-  number_output_9:
-    description: number output 9
-    label: number_output_9
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 9
-      type: number
-  number_output_10:
-    description: number output 10
-    label: number_output_10
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 10
-      type: number
   number_output_11:
     description: number output 11
     label: number_output_11
@@ -321,4 +248,74 @@ outputs:
     type: ref_contentSchema
     contentSchema:
       title: number output 20
+      type: number
+  number_output_1:
+    description: number output 1
+    label: number_output_1
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 1
+      type: number
+  number_output_2:
+    description: number output 2
+    label: number_output_2
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 2
+      type: number
+  number_output_3:
+    description: number output 3
+    label: number_output_3
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 3
+      type: number
+  number_output_4:
+    description: number output 4
+    label: number_output_4
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 4
+      type: number
+  number_output_5:
+    description: number output 5
+    label: number_output_5
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 5
+      type: number
+  number_output_6:
+    description: number output 6
+    label: number_output_6
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 6
+      type: number
+  number_output_7:
+    description: number output 7
+    label: number_output_7
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 7
+      type: number
+  number_output_8:
+    description: number output 8
+    label: number_output_8
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 8
+      type: number
+  number_output_9:
+    description: number output 9
+    label: number_output_9
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 9
+      type: number
+  number_output_10:
+    description: number output 10
+    label: number_output_10
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 10
       type: number
