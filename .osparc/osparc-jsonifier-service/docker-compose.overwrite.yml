@@ -1,5 +1,5 @@
 services:
-  osparc-jsonifier:
+  osparc-jsonifier-service:
     build:
       dockerfile: Dockerfile
     environment:

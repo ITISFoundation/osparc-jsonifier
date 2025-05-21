@@ -72,6 +72,12 @@ class JsonifierDynamicSettings:
         outputs_json_filename: str = pyda.Field(
             default="outputs.json", strict=False
         )
+        output_values_json_filename: str = pyda.Field(
+            default="values.json", strict=False
+        )
+        input_values_json_filename: str = pyda.Field(
+            default="values.json", strict=False
+        )
 
 
 if __name__ == "__main__":

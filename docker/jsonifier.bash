@@ -9,7 +9,7 @@ if [ -z "${OUTPUT_FOLDER}" ]; then
     exit 1
 fi
 
-outputs_json_dir='outputs_json'
+outputs_json_dir='json_outputs'
 echo "Creating directory outputs_json..."
 mkdir -p "${OUTPUT_FOLDER}/${outputs_json_dir}"
 

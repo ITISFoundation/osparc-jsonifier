@@ -1,3 +1,9 @@
+name: Jsonifier
+description: Jsonifier
+type: computational
+integration-version: 0.0.5
+version: 0.0.5
+key: simcore/services/comp/osparc-jsonifier-service
 authors:
 - affiliation: IT'IS Foundation
   email: vangeit@itis.swiss
@@ -12,13 +18,7 @@ boot-options:
         label: Default
     label: Boot mode
 contact: vangeit@itis.swiss
-description: Jsonifier
-integration-version: 0.0.4
-version: 0.0.4
-key: simcore/services/comp/osparc-jsonifier
-name: Jsonifier
-type: computational
-min_visible_inputs: 2
+min_visible_inputs: 3
 inputs:
   settings:
     description: Service settings
@@ -26,6 +26,13 @@ inputs:
     fileToKeyMap:
       settings.json: settings
     label: Service settings
+    type: data:*/*
+  json_inputs_file:
+    description: json input file to be converted
+    displayOrder: 1.0
+    label: json_inputs_file
+    fileToKeyMap:
+      json_inputs.json: json_inputs_file
     type: data:*/*
   number_input_1:
     description: number input 1
@@ -168,8 +175,15 @@ inputs:
       title: number input 20
       type: number
 outputs:
-  outputs_json:
+  json_outputs:
     description: json file with outputs
     displayOrder: 1.0
     label: Json output file
     type: data:*/*
+  number_output_1:
+    description: number output 1
+    label: number_output_1
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 1
+      type: number
