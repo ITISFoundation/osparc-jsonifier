@@ -13,6 +13,12 @@ boot-options:
     label: Boot mode
 contact: vangeit@itis.swiss
 description: Jsonifier
+integration-version: 0.0.4
+version: 0.0.4
+key: simcore/services/comp/osparc-jsonifier
+name: Jsonifier
+type: computational
+min_visible_inputs: 2
 inputs:
   settings:
     description: Service settings
@@ -161,15 +167,9 @@ inputs:
     contentSchema:
       title: number input 20
       type: number
-integration-version: 0.0.7
-key: simcore/services/comp/osparc-jsonifier
-name: Jsonifier
 outputs:
   outputs_json:
     description: json file with outputs
     displayOrder: 1.0
     label: Json output file
     type: data:*/*
-type: computational
-version: 0.0.4
-min_visible_inputs: 6
