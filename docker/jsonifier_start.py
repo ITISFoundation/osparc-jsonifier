@@ -21,8 +21,7 @@ class JsonifierService:
         )
 
         self.json_output_path = (
-            self.settings.output_path
-            / self.settings.output_values_json_filename
+            self.settings.output_path / self.settings.output_values_json_filename
         )
 
     def start(self):
@@ -41,9 +40,16 @@ class JsonifierService:
         logger.info(f"Json values content as input: {output_json}")
         self.json_output_path.write_text(json.dumps(output_json))
 
+        output_json_default = {
+            f"number_output_{output_i}": 0.0 for output_i in range(1, 21)
+        }
+        joined_output_json = output_json_default
         if self.input_values_json_path.exists():
             output_json_input = json.loads(self.input_values_json_path.read_text())
             logger.info(f"Json values inputs content as output: {output_json}")
-            self.outputs_json_path.write_text(json.dumps(output_json_input))
+            joined_output_json = {**joined_output_json, **output_json_input}
         else:
-            logger.info("User didn't provide json file for outputs, skipping")
+            logger.info("User didn't provide json file for outputs, return defaults")
+
+        self.outputs_json_path.write_text(json.dumps(joined_output_json))
+

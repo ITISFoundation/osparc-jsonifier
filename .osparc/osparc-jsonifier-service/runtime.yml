@@ -21,7 +21,7 @@ paths-mapping:
 
 compose-spec:
   services:
-    osparc-jsonifier:
+    osparc-jsonifier-service:
       image: $${SIMCORE_REGISTRY}/simcore/services/comp/osparc-jsonifier-service:$${SERVICE_VERSION}
       environment:
         - OSPARC_API_HOST=$${OSPARC_VARIABLE_API_HOST}
