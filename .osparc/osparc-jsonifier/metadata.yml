@@ -12,7 +12,7 @@ boot-options:
         label: Default
     label: Boot mode
 contact: vangeit@itis.swiss
-description: PapermillService
+description: JsonifierService
 inputs:
   notebook:
     description: Jupyter notebook input
@@ -200,5 +200,5 @@ outputs:
     label: JSON schema settings
     type: data:*/*
 type: computational
-version: 0.0.12
+version: 0.0.1
 min_visible_inputs: 6

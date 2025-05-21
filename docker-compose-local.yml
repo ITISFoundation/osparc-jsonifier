@@ -1,6 +1,6 @@
 services:
-  osparc-papermill:
-    image: simcore/services/comp/osparc-papermill:0.0.12
+  osparc-jsonifier:
+    image: simcore/services/comp/osparc-jsonifier:0.0.1
     environment:
       - INPUT_FOLDER=/tmp/inputs
       - OUTPUT_FOLDER=/tmp/outputs

@@ -1,5 +1,5 @@
 services:
-  osparc-papermill:
+  osparc-jsonifier:
     build:
       dockerfile: Dockerfile
     environment:

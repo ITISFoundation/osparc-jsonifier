@@ -4,7 +4,7 @@ set -euo pipefail
 IFS=$'\n\t'
 INFO="INFO: [$(basename "$0")] "
 
-echo "$INFO" "Starting container for papermill ..."
+echo "$INFO" "Starting container for jsonifier ..."
 
 HOST_USERID=$(stat -c %u "${INPUT_FOLDER}")
 HOST_GROUPID=$(stat -c %g "${INPUT_FOLDER}")
@@ -30,4 +30,4 @@ else
     chgrp --recursive "$CONTAINER_GROUPNAME" "${OUTPUT_FOLDER}"
 fi
 
-exec gosu "$OSPARC_USER" /docker/papermill.bash
+exec gosu "$OSPARC_USER" /docker/jsonifier.bash

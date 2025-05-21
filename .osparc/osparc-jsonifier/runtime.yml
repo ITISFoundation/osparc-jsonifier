@@ -21,10 +21,10 @@ paths-mapping:
 
 compose-spec:
   services:
-    osparc-papermill:
-      image: $${SIMCORE_REGISTRY}/simcore/services/comp/osparc-papermill:$${SERVICE_VERSION}
+    osparc-jsonifier:
+      image: $${SIMCORE_REGISTRY}/simcore/services/comp/osparc-jsonifier:$${SERVICE_VERSION}
       environment:
         - OSPARC_API_HOST=$${OSPARC_VARIABLE_API_HOST}
         - OSPARC_API_KEY=$${OSPARC_VARIABLE_API_KEY}
         - OSPARC_API_SECRET=$${OSPARC_VARIABLE_API_SECRET}
-container-http-entrypoint: osparc-papermill
+container-http-entrypoint: osparc-jsonifier

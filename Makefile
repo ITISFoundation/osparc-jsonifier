@@ -3,8 +3,8 @@
 SHELL = /bin/sh
 .DEFAULT_GOAL := help
 
-export DOCKER_IMAGE_NAME ?= osparc-papermill
-export DOCKER_IMAGE_TAG ?= 0.0.12
+export DOCKER_IMAGE_NAME ?= osparc-jsonifier
+export DOCKER_IMAGE_TAG ?= 0.0.1
 
 export MASTER_AWS_REGISTRY ?= registry.osparc-master-zmt.click
 export MASTER_REGISTRY ?= registry.osparc-master.speag.com
@@ -38,7 +38,7 @@ clean:
 add_metadata_inputs:
 	cd helper_scripts && \
 		pip install pyyaml && \
-		python add_metadata_inputs.py ../.osparc/osparc-papermill/metadata.yml ../.osparc/osparc-papermill/metadata.yml
+		python add_metadata_inputs.py ../.osparc/osparc-jsonifier/metadata.yml ../.osparc/osparc-jsonifier/metadata.yml
 
 .PHONY: build
 build: clean add_metadata_inputs compose-spec	## build docker image
