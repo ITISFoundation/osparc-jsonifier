@@ -1,8 +1,8 @@
 name: Jsonifier
 description: Jsonifier
 type: computational
-integration-version: 0.0.6
-version: 0.0.6
+integration-version: 0.0.7
+version: 0.0.7
 key: simcore/services/comp/osparc-jsonifier-service
 authors:
 - affiliation: IT'IS Foundation
@@ -32,76 +32,6 @@ inputs:
     fileToKeyMap:
       json_inputs.json: json_inputs_file
     type: data:*/*
-  number_input_11:
-    description: number input 11
-    label: number_input_11
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 11
-      type: number
-  number_input_12:
-    description: number input 12
-    label: number_input_12
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 12
-      type: number
-  number_input_13:
-    description: number input 13
-    label: number_input_13
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 13
-      type: number
-  number_input_14:
-    description: number input 14
-    label: number_input_14
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 14
-      type: number
-  number_input_15:
-    description: number input 15
-    label: number_input_15
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 15
-      type: number
-  number_input_16:
-    description: number input 16
-    label: number_input_16
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 16
-      type: number
-  number_input_17:
-    description: number input 17
-    label: number_input_17
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 17
-      type: number
-  number_input_18:
-    description: number input 18
-    label: number_input_18
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 18
-      type: number
-  number_input_19:
-    description: number input 19
-    label: number_input_19
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 19
-      type: number
-  number_input_20:
-    description: number input 20
-    label: number_input_20
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 20
-      type: number
   number_input_1:
     description: number input 1
     label: number_input_1
@@ -179,76 +109,6 @@ outputs:
     fileToKeyMap:
       values.json: json_outputs
     type: data:*/*
-  number_output_11:
-    description: number output 11
-    label: number_output_11
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 11
-      type: number
-  number_output_12:
-    description: number output 12
-    label: number_output_12
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 12
-      type: number
-  number_output_13:
-    description: number output 13
-    label: number_output_13
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 13
-      type: number
-  number_output_14:
-    description: number output 14
-    label: number_output_14
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 14
-      type: number
-  number_output_15:
-    description: number output 15
-    label: number_output_15
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 15
-      type: number
-  number_output_16:
-    description: number output 16
-    label: number_output_16
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 16
-      type: number
-  number_output_17:
-    description: number output 17
-    label: number_output_17
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 17
-      type: number
-  number_output_18:
-    description: number output 18
-    label: number_output_18
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 18
-      type: number
-  number_output_19:
-    description: number output 19
-    label: number_output_19
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 19
-      type: number
-  number_output_20:
-    description: number output 20
-    label: number_output_20
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 20
-      type: number
   number_output_1:
     description: number output 1
     label: number_output_1
