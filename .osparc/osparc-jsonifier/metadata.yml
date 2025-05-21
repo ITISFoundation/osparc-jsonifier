@@ -14,11 +14,6 @@ boot-options:
 contact: vangeit@itis.swiss
 description: JsonifierService
 inputs:
-  notebook:
-    description: Jupyter notebook input
-    displayOrder: 0.0
-    label: Jupyter notebook input
-    type: data:*/*
   settings:
     description: Service settings
     displayOrder: 0.5
@@ -26,126 +21,13 @@ inputs:
       settings.json: settings
     label: Service settings
     type: data:*/*
-  input_1:
+  number_input_1:
     description: input 1
-    fileToKeyMap:
-      input_1/input_1: input_1
-    label: input_1
-    type: data:*/*
-  input_2:
-    description: input 2
-    fileToKeyMap:
-      input_2/input_2: input_2
-    label: input_2
-    type: data:*/*
-  input_3:
-    description: input 3
-    fileToKeyMap:
-      input_3/input_3: input_3
-    label: input_3
-    type: data:*/*
-  input_4:
-    description: input 4
-    fileToKeyMap:
-      input_4/input_4: input_4
-    label: input_4
-    type: data:*/*
-  input_5:
-    description: input 5
-    fileToKeyMap:
-      input_5/input_5: input_5
-    label: input_5
-    type: data:*/*
-  input_6:
-    description: input 6
-    fileToKeyMap:
-      input_6/input_6: input_6
-    label: input_6
-    type: data:*/*
-  input_7:
-    description: input 7
-    fileToKeyMap:
-      input_7/input_7: input_7
-    label: input_7
-    type: data:*/*
-  input_8:
-    description: input 8
-    fileToKeyMap:
-      input_8/input_8: input_8
-    label: input_8
-    type: data:*/*
-  input_9:
-    description: input 9
-    fileToKeyMap:
-      input_9/input_9: input_9
-    label: input_9
-    type: data:*/*
-  input_10:
-    description: input 10
-    fileToKeyMap:
-      input_10/input_10: input_10
-    label: input_10
-    type: data:*/*
-  input_11:
-    description: input 11
-    fileToKeyMap:
-      input_11/input_11: input_11
-    label: input_11
-    type: data:*/*
-  input_12:
-    description: input 12
-    fileToKeyMap:
-      input_12/input_12: input_12
-    label: input_12
-    type: data:*/*
-  input_13:
-    description: input 13
-    fileToKeyMap:
-      input_13/input_13: input_13
-    label: input_13
-    type: data:*/*
-  input_14:
-    description: input 14
-    fileToKeyMap:
-      input_14/input_14: input_14
-    label: input_14
-    type: data:*/*
-  input_15:
-    description: input 15
-    fileToKeyMap:
-      input_15/input_15: input_15
-    label: input_15
-    type: data:*/*
-  input_16:
-    description: input 16
-    fileToKeyMap:
-      input_16/input_16: input_16
-    label: input_16
-    type: data:*/*
-  input_17:
-    description: input 17
-    fileToKeyMap:
-      input_17/input_17: input_17
-    label: input_17
-    type: data:*/*
-  input_18:
-    description: input 18
-    fileToKeyMap:
-      input_18/input_18: input_18
-    label: input_18
-    type: data:*/*
-  input_19:
-    description: input 19
-    fileToKeyMap:
-      input_19/input_19: input_19
-    label: input_19
-    type: data:*/*
-  input_20:
-    description: input 20
-    fileToKeyMap:
-      input_20/input_20: input_20
-    label: input_20
-    type: data:*/*
+    label: number_input_1
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 1
+      type: number
 integration-version: 0.0.7
 key: simcore/services/comp/osparc-papermill
 name: PapermillService

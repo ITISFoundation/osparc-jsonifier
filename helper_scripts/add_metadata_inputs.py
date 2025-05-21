@@ -11,14 +11,16 @@ def main():
 
     input_template = template_content["inputs"]["input_1"]
     for input_i in range(1, 21):
-        input_string = f"input_{input_i}"
+        input_string = f"number_input_{input_i}"
         if input_string in template_content["inputs"]:
             del template_content["inputs"][input_string]
         this_input = input_template.copy()
         this_input["label"] = input_string
-        this_input["description"] = f"input {input_i}"
-        this_input["fileToKeyMap"] = {
-            f"{input_string}/{input_string}": input_string
+        this_input["description"] = f"number input {input_i}"
+        this_input["type"] = "ref_contentSchema"
+        this_input["content_schema"] = {
+            'title': f"number input {input_i}",
+            'type': "number"
         }
         template_content["inputs"][input_string] = this_input
 
