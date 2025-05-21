@@ -1,0 +1,6 @@
+papermill
+ipykernel
+pydantic
+pydantic-settings==2.5.2
+watchdog
+osparc_filecomms

@@ -1,0 +1,11 @@
+services:
+  osparc-papermill:
+    image: simcore/services/comp/osparc-papermill:0.0.12
+    environment:
+      - INPUT_FOLDER=/tmp/inputs
+      - OUTPUT_FOLDER=/tmp/outputs
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${PWD}/validation-tmp/workspace:/home/osparcuser/work/workspace
+      - ${PWD}/validation-tmp/inputs:/tmp/inputs
+      - ${PWD}/validation-tmp/outputs:/tmp/outputs
