@@ -27,9 +27,6 @@ fi
 echo "INPUT_FOLDER:"
 ls -al ${INPUT_FOLDER}
 
-echo "INPUT_FOLDER/input_1:"
-ls -al ${INPUT_FOLDER}/input_1
-
 echo "INPUT_FOLDER/inputs.json:"
 cat ${INPUT_FOLDER}/inputs.json
 

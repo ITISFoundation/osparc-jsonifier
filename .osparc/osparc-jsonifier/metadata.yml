@@ -22,15 +22,148 @@ inputs:
     label: Service settings
     type: data:*/*
   number_input_1:
-    description: input 1
+    description: number input 1
     label: number_input_1
     type: ref_contentSchema
     contentSchema:
       title: number input 1
       type: number
+  number_input_2:
+    description: number input 2
+    label: number_input_2
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 2
+      type: number
+  number_input_3:
+    description: number input 3
+    label: number_input_3
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 3
+      type: number
+  number_input_4:
+    description: number input 4
+    label: number_input_4
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 4
+      type: number
+  number_input_5:
+    description: number input 5
+    label: number_input_5
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 5
+      type: number
+  number_input_6:
+    description: number input 6
+    label: number_input_6
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 6
+      type: number
+  number_input_7:
+    description: number input 7
+    label: number_input_7
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 7
+      type: number
+  number_input_8:
+    description: number input 8
+    label: number_input_8
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 8
+      type: number
+  number_input_9:
+    description: number input 9
+    label: number_input_9
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 9
+      type: number
+  number_input_10:
+    description: number input 10
+    label: number_input_10
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 10
+      type: number
+  number_input_11:
+    description: number input 11
+    label: number_input_11
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 11
+      type: number
+  number_input_12:
+    description: number input 12
+    label: number_input_12
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 12
+      type: number
+  number_input_13:
+    description: number input 13
+    label: number_input_13
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 13
+      type: number
+  number_input_14:
+    description: number input 14
+    label: number_input_14
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 14
+      type: number
+  number_input_15:
+    description: number input 15
+    label: number_input_15
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 15
+      type: number
+  number_input_16:
+    description: number input 16
+    label: number_input_16
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 16
+      type: number
+  number_input_17:
+    description: number input 17
+    label: number_input_17
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 17
+      type: number
+  number_input_18:
+    description: number input 18
+    label: number_input_18
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 18
+      type: number
+  number_input_19:
+    description: number input 19
+    label: number_input_19
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 19
+      type: number
+  number_input_20:
+    description: number input 20
+    label: number_input_20
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 20
+      type: number
 integration-version: 0.0.7
-key: simcore/services/comp/osparc-papermill
-name: PapermillService
+key: simcore/services/comp/osparc-jsonifier
+name: JsonifierService
 outputs:
   notebook-output:
     description: Jupyter notebook output
