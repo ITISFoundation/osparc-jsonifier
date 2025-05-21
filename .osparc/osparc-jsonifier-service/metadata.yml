@@ -179,6 +179,8 @@ outputs:
     description: json file with outputs
     displayOrder: 1.0
     label: Json output file
+    fileToKeyMap:
+      values.json: json_outputs
     type: data:*/*
   number_output_1:
     description: number output 1

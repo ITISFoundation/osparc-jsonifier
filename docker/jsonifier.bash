@@ -9,9 +9,9 @@ if [ -z "${OUTPUT_FOLDER}" ]; then
     exit 1
 fi
 
-outputs_json_dir='json_outputs'
-echo "Creating directory outputs_json..."
-mkdir -p "${OUTPUT_FOLDER}/${outputs_json_dir}"
+# outputs_json_dir='json_outputs'
+# echo "Creating directory outputs_json..."
+# mkdir -p "${OUTPUT_FOLDER}/${outputs_json_dir}"
 
 # Loop over output directories
 for i in {1..5}; do
@@ -54,10 +54,10 @@ for i in {1..5}; do
         exit 1
     fi
 done
-echo "Zipping ${outputs_json_dir}..."
-if ! zip -r "${outputs_json_dir}.zip" "${outputs_json_dir}"; then
-    echo "ERROR: Failed to create zip archive for ${outputs_json_dir}"
-    exit 1
-fi
+# echo "Zipping ${outputs_json_dir}..."
+# if ! zip -r "${outputs_json_dir}.zip" "${outputs_json_dir}"; then
+#     echo "ERROR: Failed to create zip archive for ${outputs_json_dir}"
+#     exit 1
+# fi
 
 echo "Script completed successfully"

@@ -22,7 +22,6 @@ class JsonifierService:
 
         self.json_output_path = (
             self.settings.output_path
-            / "json_output"
             / self.settings.output_values_json_filename
         )
 
@@ -40,6 +39,7 @@ class JsonifierService:
             for input_label in to_transfer_input_labels
         }
         logger.info(f"Json values content as input: {output_json}")
+        self.json_output_path.write_text(json.dumps(output_json))
 
         if self.input_values_json_path.exists():
             output_json_input = json.loads(self.input_values_json_path.read_text())
@@ -47,5 +47,3 @@ class JsonifierService:
             self.outputs_json_path.write_text(json.dumps(output_json_input))
         else:
             logger.info("User didn't provide json file for outputs, skipping")
-
-        self.outputs_json_path.write_text(json.dumps(output_json))
