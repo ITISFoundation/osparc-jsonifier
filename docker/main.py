@@ -4,16 +4,16 @@ import logging
 import osparc_filecomms.tools as osfct
 import pydantic as pyda
 import pydantic_settings
+import pathlib as pl
 
 import jsonifier_start
 
-logging.basicConfig(
-    level=logging.INFO, format="[%(filename)s:%(lineno)d] %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="[%(filename)s:%(lineno)d] %(message)s")
 logger = logging.getLogger(__name__)
 
 INPUT_CONF_KEY = "settings"
 CONF_SCHEMA_FILENAME = "settings_json_schema.json"
+DEFAULT_SETTINGS_FILEPATH = "settings_default.json"
 
 
 def main():
@@ -22,9 +22,7 @@ def main():
     settings = JsonifierDynamicSettings()
 
     # Wait for and read the settings file
-    logger.info(
-        f"Waiting for settings file to appear at {settings.settings_file_path}"
-    )
+    logger.info(f"Waiting for settings file to appear at {settings.settings_file_path}")
     settings.read_settings_file()
     logger.info("Settings file was read")
 
@@ -36,9 +34,6 @@ def main():
 class JsonifierDynamicSettings:
     def __init__(self):
         self._settings = self.JsonifierMainSettings()
-        conf_json_schema_path = (
-            self._settings.output_path / CONF_SCHEMA_FILENAME
-        )
 
         settings_schema = self._settings.model_json_schema()
 
@@ -46,12 +41,15 @@ class JsonifierDynamicSettings:
         for field_name in [
             "INPUT_FOLDER",
             "OUTPUT_FOLDER",
+            "INPUTS_JSON_FILENAME"
         ]:
             settings_schema["properties"].pop(field_name)
 
-        conf_json_schema_path.write_text(json.dumps(settings_schema, indent=2))
-
         self.settings_file_path = self._settings.input_path / "settings.json"
+        if not self.settings_file_path.exists():
+            self.settings_file_path = pl.Path(
+                pl.Path(__file__).parent / DEFAULT_SETTINGS_FILEPATH
+            )
 
     def __getattr__(self, name):
         if name in self.__dict__:
@@ -68,7 +66,13 @@ class JsonifierDynamicSettings:
     class JsonifierMainSettings(pydantic_settings.BaseSettings):
         input_path: pyda.DirectoryPath = pyda.Field(alias="INPUT_FOLDER")
         output_path: pyda.DirectoryPath = pyda.Field(alias="OUTPUT_FOLDER")
-        input_json_filename: pyda.types.Path = pyda.Field(default="", strict=False)
+        inputs_json_filename: pyda.types.Path = pyda.Field(
+            default="inputs.json", strict=False, alias="INPUTS_JSON_FILENAME"
+        )
+        outputs_json_filename: str = pyda.Field(
+            default="outputs.json", strict=False
+        )
+
 
 if __name__ == "__main__":
     main()

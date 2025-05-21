@@ -165,55 +165,11 @@ integration-version: 0.0.7
 key: simcore/services/comp/osparc-jsonifier
 name: JsonifierService
 outputs:
-  notebook-output:
-    description: Jupyter notebook output
-    displayOrder: 0.0
-    fileToKeyMap:
-      test-output.ipynb: notebook-output
-    label: Jupyter notebook output
-    type: data:*/*
-  output_1:
-    description: output 1
+  outputs_json:
+    description: json file with outputs
     displayOrder: 1.0
-    fileToKeyMap:
-      output_1.zip: output_1
-    label: Output files 1
-    type: data:*/*
-  output_2:
-    description: output 2
-    displayOrder: 2.0
-    fileToKeyMap:
-      output_2.zip: output_2
-    label: Output files 2
-    type: data:*/*
-  output_3:
-    description: output 3
-    displayOrder: 3.0
-    fileToKeyMap:
-      output_3.zip: output_3
-    label: Output files 3
-    type: data:*/*
-  output_4:
-    description: output 4
-    displayOrder: 4.0
-    fileToKeyMap:
-      output_4.zip: output_4
-    label: Output files 4
-    type: data:*/*
-  output_5:
-    description: output 5
-    displayOrder: 5.0
-    fileToKeyMap:
-      output_5.zip: output_5
-    label: Output files 5
-    type: data:*/*
-  settings_json_schema:
-    description: JSON schema settings
-    displayOrder: 0.5
-    fileToKeyMap:
-      settings_json_schema.json: settings_json_schema
-    label: JSON schema settings
+    label: Json output file
     type: data:*/*
 type: computational
-version: 0.0.1
+version: 0.0.2
 min_visible_inputs: 6
