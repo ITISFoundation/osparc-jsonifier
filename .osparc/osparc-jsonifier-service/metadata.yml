@@ -187,3 +187,136 @@ outputs:
     contentSchema:
       title: number output 1
       type: number
+  number_output_2:
+    description: number output 2
+    label: number_output_2
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 2
+      type: number
+  number_output_3:
+    description: number output 3
+    label: number_output_3
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 3
+      type: number
+  number_output_4:
+    description: number output 4
+    label: number_output_4
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 4
+      type: number
+  number_output_5:
+    description: number output 5
+    label: number_output_5
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 5
+      type: number
+  number_output_6:
+    description: number output 6
+    label: number_output_6
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 6
+      type: number
+  number_output_7:
+    description: number output 7
+    label: number_output_7
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 7
+      type: number
+  number_output_8:
+    description: number output 8
+    label: number_output_8
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 8
+      type: number
+  number_output_9:
+    description: number output 9
+    label: number_output_9
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 9
+      type: number
+  number_output_10:
+    description: number output 10
+    label: number_output_10
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 10
+      type: number
+  number_output_11:
+    description: number output 11
+    label: number_output_11
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 11
+      type: number
+  number_output_12:
+    description: number output 12
+    label: number_output_12
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 12
+      type: number
+  number_output_13:
+    description: number output 13
+    label: number_output_13
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 13
+      type: number
+  number_output_14:
+    description: number output 14
+    label: number_output_14
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 14
+      type: number
+  number_output_15:
+    description: number output 15
+    label: number_output_15
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 15
+      type: number
+  number_output_16:
+    description: number output 16
+    label: number_output_16
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 16
+      type: number
+  number_output_17:
+    description: number output 17
+    label: number_output_17
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 17
+      type: number
+  number_output_18:
+    description: number output 18
+    label: number_output_18
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 18
+      type: number
+  number_output_19:
+    description: number output 19
+    label: number_output_19
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 19
+      type: number
+  number_output_20:
+    description: number output 20
+    label: number_output_20
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 20
+      type: number
