@@ -1,1 +1,1 @@
-# osparc-jsonifier-service
+# jsonifier

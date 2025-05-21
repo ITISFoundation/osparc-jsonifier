@@ -1,9 +1,9 @@
-name: Jsonifier
-description: Jsonifier
+name: jsonifier
+description: jsonifier
 type: computational
 integration-version: 1.0.0
-version: 0.0.10
-key: simcore/services/comp/osparc-jsonifier-service
+version: 0.0.11
+key: simcore/services/comp/jsonifier
 authors:
 - affiliation: IT'IS Foundation
   email: vangeit@itis.swiss
