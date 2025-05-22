@@ -41,7 +41,7 @@ class JsonifierService:
         self.json_output_path.write_text(json.dumps(output_json))
 
         output_json_default = {
-            f"number_output_{output_i}": 0.0 for output_i in range(1, 21)
+            f"number_output_{output_i}": 0.0 for output_i in range(1, 11)
         }
         joined_output_json = output_json_default
         if self.input_values_json_path.exists():

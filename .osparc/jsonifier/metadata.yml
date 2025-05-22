@@ -8,15 +8,6 @@ authors:
 - affiliation: IT'IS Foundation
   email: vangeit@itis.swiss
   name: Werner Van Geit
-boot-options:
-  boot_mode:
-    default: '0'
-    description: Select boot type for the service
-    items:
-      '0':
-        description: Normal mode
-        label: Default
-    label: Boot mode
 contact: vangeit@itis.swiss
 min_visible_inputs: 3
 inputs:
