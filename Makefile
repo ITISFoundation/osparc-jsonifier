@@ -34,6 +34,7 @@ compose-spec: ## runs ooil to assemble the docker-compose.yml file
 
 clean:
 	rm -rf docker-compose.yml
+	rm -rf validation-tmp
 
 add_metadata_inputs:
 	cd helper_scripts && \

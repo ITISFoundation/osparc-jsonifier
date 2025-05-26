@@ -31,7 +31,7 @@ class JsonifierService:
         to_transfer_input_labels = [
             input_label
             for input_label in input_json.keys()
-            if "number_input_" in input_label
+            if "number_" in input_label
         ]
         output_json = {
             input_label: input_json[input_label]
@@ -41,7 +41,7 @@ class JsonifierService:
         self.json_output_path.write_text(json.dumps(output_json))
 
         output_json_default = {
-            f"number_output_{output_i}": 0.0 for output_i in range(1, 11)
+            f"number_{output_i}": 0.0 for output_i in range(1, 11)
         }
         joined_output_json = output_json_default
         if self.input_values_json_path.exists():

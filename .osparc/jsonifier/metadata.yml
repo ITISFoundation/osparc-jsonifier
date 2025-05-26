@@ -23,72 +23,72 @@ inputs:
     fileToKeyMap:
       values.json: json_inputs_file
     type: data:*/*
-  number_input_1:
+  number_1:
     description: number input 1
-    label: number_input_1
+    label: number_1
     type: ref_contentSchema
     contentSchema:
       title: number input 1
       type: number
-  number_input_2:
+  number_2:
     description: number input 2
-    label: number_input_2
+    label: number_2
     type: ref_contentSchema
     contentSchema:
       title: number input 2
       type: number
-  number_input_3:
+  number_3:
     description: number input 3
-    label: number_input_3
+    label: number_3
     type: ref_contentSchema
     contentSchema:
       title: number input 3
       type: number
-  number_input_4:
+  number_4:
     description: number input 4
-    label: number_input_4
+    label: number_4
     type: ref_contentSchema
     contentSchema:
       title: number input 4
       type: number
-  number_input_5:
+  number_5:
     description: number input 5
-    label: number_input_5
+    label: number_5
     type: ref_contentSchema
     contentSchema:
       title: number input 5
       type: number
-  number_input_6:
+  number_6:
     description: number input 6
-    label: number_input_6
+    label: number_6
     type: ref_contentSchema
     contentSchema:
       title: number input 6
       type: number
-  number_input_7:
+  number_7:
     description: number input 7
-    label: number_input_7
+    label: number_7
     type: ref_contentSchema
     contentSchema:
       title: number input 7
       type: number
-  number_input_8:
+  number_8:
     description: number input 8
-    label: number_input_8
+    label: number_8
     type: ref_contentSchema
     contentSchema:
       title: number input 8
       type: number
-  number_input_9:
+  number_9:
     description: number input 9
-    label: number_input_9
+    label: number_9
     type: ref_contentSchema
     contentSchema:
       title: number input 9
       type: number
-  number_input_10:
+  number_10:
     description: number input 10
-    label: number_input_10
+    label: number_10
     type: ref_contentSchema
     contentSchema:
       title: number input 10
@@ -100,72 +100,72 @@ outputs:
     fileToKeyMap:
       values.json: json_outputs
     type: data:*/*
-  number_output_1:
+  number_1:
     description: number output 1
-    label: number_output_1
+    label: number_1
     type: ref_contentSchema
     contentSchema:
       title: number output 1
       type: number
-  number_output_2:
+  number_2:
     description: number output 2
-    label: number_output_2
+    label: number_2
     type: ref_contentSchema
     contentSchema:
       title: number output 2
       type: number
-  number_output_3:
+  number_3:
     description: number output 3
-    label: number_output_3
+    label: number_3
     type: ref_contentSchema
     contentSchema:
       title: number output 3
       type: number
-  number_output_4:
+  number_4:
     description: number output 4
-    label: number_output_4
+    label: number_4
     type: ref_contentSchema
     contentSchema:
       title: number output 4
       type: number
-  number_output_5:
+  number_5:
     description: number output 5
-    label: number_output_5
+    label: number_5
     type: ref_contentSchema
     contentSchema:
       title: number output 5
       type: number
-  number_output_6:
+  number_6:
     description: number output 6
-    label: number_output_6
+    label: number_6
     type: ref_contentSchema
     contentSchema:
       title: number output 6
       type: number
-  number_output_7:
+  number_7:
     description: number output 7
-    label: number_output_7
+    label: number_7
     type: ref_contentSchema
     contentSchema:
       title: number output 7
       type: number
-  number_output_8:
+  number_8:
     description: number output 8
-    label: number_output_8
+    label: number_8
     type: ref_contentSchema
     contentSchema:
       title: number output 8
       type: number
-  number_output_9:
+  number_9:
     description: number output 9
-    label: number_output_9
+    label: number_9
     type: ref_contentSchema
     contentSchema:
       title: number output 9
       type: number
-  number_output_10:
+  number_10:
     description: number output 10
-    label: number_output_10
+    label: number_10
     type: ref_contentSchema
     contentSchema:
       title: number output 10

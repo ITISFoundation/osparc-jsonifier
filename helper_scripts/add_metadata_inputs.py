@@ -9,9 +9,9 @@ def main():
     new_metadata_path = pl.Path(sys.argv[2])
     template_content = yaml.safe_load(template_path.read_text())
 
-    input_template = template_content["inputs"]["number_input_1"]
+    input_template = template_content["inputs"]["number_1"]
     for input_i in range(1, 11):
-        input_string = f"number_input_{input_i}"
+        input_string = f"number_{input_i}"
         if input_string in template_content["inputs"]:
             del template_content["inputs"][input_string]
         this_input = input_template.copy()
@@ -23,9 +23,9 @@ def main():
         }
         template_content["inputs"][input_string] = this_input
     
-    output_template = template_content["outputs"]["number_output_1"]
+    output_template = template_content["outputs"]["number_1"]
     for output_i in range(1, 11):
-        output_string = f"number_output_{output_i}"
+        output_string = f"number_{output_i}"
         if output_string in template_content["outputs"]:
             del template_content["outputs"][output_string]
         this_output = output_template.copy()
