@@ -52,3 +52,5 @@ class JsonifierService:
             logger.info("User didn't provide json file for outputs, return defaults")
 
         self.outputs_json_path.write_text(json.dumps(joined_output_json))
+
+        logger.info(f"Content of {self.json_output_path}: {self.json_output_path.read_text()}")
