@@ -4,7 +4,7 @@ SHELL = /bin/sh
 .DEFAULT_GOAL := help
 
 export DOCKER_IMAGE_NAME ?= jsonifier
-export DOCKER_IMAGE_TAG ?= 1.1.0
+export DOCKER_IMAGE_TAG ?= 1.0.1
 
 export MASTER_AWS_REGISTRY ?= registry.osparc-master-zmt.click
 export MASTER_REGISTRY ?= registry.osparc-master.speag.com
