@@ -15,6 +15,8 @@ INPUT_CONF_KEY = "settings"
 CONF_SCHEMA_FILENAME = "settings_json_schema.json"
 DEFAULT_SETTINGS_FILEPATH = "settings_default.json"
 
+NUMBER_OF_INPUTS = 20
+NUMBER_OF_OUTPUTS = 20
 
 def main():
     """Main"""
@@ -45,6 +47,8 @@ class JsonifierDynamicSettings:
         ]:
             settings_schema["properties"].pop(field_name)
 
+        self.number_of_inputs: int = NUMBER_OF_INPUTS
+        self.number_of_outputs: int = NUMBER_OF_OUTPUTS
         self.settings_file_path = self._settings.input_path / "settings.json"
         if not self.settings_file_path.exists():
             self.settings_file_path = pl.Path(

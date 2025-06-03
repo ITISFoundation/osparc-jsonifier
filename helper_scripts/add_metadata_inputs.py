@@ -4,13 +4,16 @@ import sys
 import yaml
 import json
 
+NUMBER_OF_INPUTS = 20
+NUMBER_OF_OUTPUTS = 20
+
 def main():
     template_path = pl.Path(sys.argv[1])
     new_metadata_path = pl.Path(sys.argv[2])
     template_content = yaml.safe_load(template_path.read_text())
 
     input_template = template_content["inputs"]["number_1"]
-    for input_i in range(1, 11):
+    for input_i in range(1, NUMBER_OF_INPUTS+1):
         input_string = f"number_{input_i}"
         if input_string in template_content["inputs"]:
             del template_content["inputs"][input_string]
@@ -24,7 +27,7 @@ def main():
         template_content["inputs"][input_string] = this_input
     
     output_template = template_content["outputs"]["number_1"]
-    for output_i in range(1, 11):
+    for output_i in range(1, NUMBER_OF_OUTPUTS+1):
         output_string = f"number_{output_i}"
         if output_string in template_content["outputs"]:
             del template_content["outputs"][output_string]

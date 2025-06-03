@@ -29,9 +29,7 @@ class JsonifierService:
         logger.info(f"Json inputs content: {input_json}")
 
         to_transfer_input_labels = [
-            input_label
-            for input_label in input_json.keys()
-            if "number_" in input_label
+            input_label for input_label in input_json.keys() if "number_" in input_label
         ]
         output_json = {
             input_label: input_json[input_label]
@@ -41,7 +39,8 @@ class JsonifierService:
         self.json_output_path.write_text(json.dumps(output_json))
 
         output_json_default = {
-            f"number_{output_i}": 0.0 for output_i in range(1, 11)
+            f"number_{output_i}": 0.0
+            for output_i in range(1, self.settings.number_of_outputs + 1)
         }
         joined_output_json = output_json_default
         if self.input_values_json_path.exists():
@@ -53,4 +52,6 @@ class JsonifierService:
 
         self.outputs_json_path.write_text(json.dumps(joined_output_json))
 
-        logger.info(f"Content of {self.json_output_path}: {self.json_output_path.read_text()}")
+        logger.info(
+            f"Content of {self.json_output_path}: {self.json_output_path.read_text()}"
+        )
