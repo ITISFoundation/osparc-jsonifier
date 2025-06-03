@@ -45,7 +45,7 @@ class JsonifierService:
         joined_output_json = output_json_default
         if self.input_values_json_path.exists():
             output_json_input = json.loads(self.input_values_json_path.read_text())
-            logger.info(f"Json values inputs content as output: {output_json}")
+            logger.info(f"Json values inputs content as output: {output_json_input}")
             joined_output_json = {**joined_output_json, **output_json_input}
         else:
             logger.info("User didn't provide json file for outputs, return defaults")

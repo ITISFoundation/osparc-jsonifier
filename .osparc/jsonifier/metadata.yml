@@ -13,15 +13,11 @@ min_visible_inputs: 3
 inputs:
   settings:
     description: Service settings
-    fileToKeyMap:
-      settings.json: settings
     label: Service settings
     type: data:*/*
   json_inputs_file:
     description: json input file to be converted
     label: json_inputs_file
-    fileToKeyMap:
-      values.json: json_inputs_file
     type: data:*/*
   number_1:
     description: number input 1
@@ -106,62 +102,6 @@ inputs:
     type: ref_contentSchema
     contentSchema:
       title: number input 12
-      type: number
-  number_13:
-    description: number input 13
-    label: number_13
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 13
-      type: number
-  number_14:
-    description: number input 14
-    label: number_14
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 14
-      type: number
-  number_15:
-    description: number input 15
-    label: number_15
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 15
-      type: number
-  number_16:
-    description: number input 16
-    label: number_16
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 16
-      type: number
-  number_17:
-    description: number input 17
-    label: number_17
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 17
-      type: number
-  number_18:
-    description: number input 18
-    label: number_18
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 18
-      type: number
-  number_19:
-    description: number input 19
-    label: number_19
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 19
-      type: number
-  number_20:
-    description: number input 20
-    label: number_20
-    type: ref_contentSchema
-    contentSchema:
-      title: number input 20
       type: number
 outputs:
   json_outputs:
@@ -253,60 +193,4 @@ outputs:
     type: ref_contentSchema
     contentSchema:
       title: number output 12
-      type: number
-  number_13:
-    description: number output 13
-    label: number_13
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 13
-      type: number
-  number_14:
-    description: number output 14
-    label: number_14
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 14
-      type: number
-  number_15:
-    description: number output 15
-    label: number_15
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 15
-      type: number
-  number_16:
-    description: number output 16
-    label: number_16
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 16
-      type: number
-  number_17:
-    description: number output 17
-    label: number_17
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 17
-      type: number
-  number_18:
-    description: number output 18
-    label: number_18
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 18
-      type: number
-  number_19:
-    description: number output 19
-    label: number_19
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 19
-      type: number
-  number_20:
-    description: number output 20
-    label: number_20
-    type: ref_contentSchema
-    contentSchema:
-      title: number output 20
       type: number

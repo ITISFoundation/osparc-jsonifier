@@ -4,8 +4,8 @@ import sys
 import yaml
 import json
 
-NUMBER_OF_INPUTS = 20
-NUMBER_OF_OUTPUTS = 20
+NUMBER_OF_INPUTS = 12
+NUMBER_OF_OUTPUTS = 12
 
 def main():
     template_path = pl.Path(sys.argv[1])
