@@ -1,8 +1,8 @@
 name: jsonifier
 description: jsonifier
 type: computational
-integration-version: 1.0.2
-version: 1.0.2
+integration-version: 1.1.0
+version: 1.1.0
 key: simcore/services/comp/jsonifier
 authors:
 - affiliation: IT'IS Foundation
