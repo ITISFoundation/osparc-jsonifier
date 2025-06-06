@@ -11,8 +11,8 @@ settings:
     type: Resources
     value:
       Limits:
-        NanoCPUs: 4000000000
-        MemoryBytes: 17179869184
+        NanoCPUs: 100000000
+        MemoryBytes: 134217728
 paths-mapping:
   inputs_path: /home/osparcuser/work/inputs
   outputs_path: /home/osparcuser/work/outputs
