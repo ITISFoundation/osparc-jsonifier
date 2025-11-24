@@ -55,3 +55,7 @@ class JsonifierService:
         logger.info(
             f"Content of {self.json_output_path}: {self.json_output_path.read_text()}"
         )
+
+        logger.info(
+            f"Content of {self.outputs_json_path}: {self.outputs_json_path.read_text()}"
+        )

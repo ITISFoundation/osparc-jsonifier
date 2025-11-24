@@ -103,6 +103,272 @@ inputs:
     contentSchema:
       title: number input 12
       type: number
+  number_13:
+    description: number input 13
+    label: number_13
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 13
+      type: number
+  number_14:
+    description: number input 14
+    label: number_14
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 14
+      type: number
+  number_15:
+    description: number input 15
+    label: number_15
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 15
+      type: number
+  number_16:
+    description: number input 16
+    label: number_16
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 16
+      type: number
+  number_17:
+    description: number input 17
+    label: number_17
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 17
+      type: number
+  number_18:
+    description: number input 18
+    label: number_18
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 18
+      type: number
+  number_19:
+    description: number input 19
+    label: number_19
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 19
+      type: number
+  number_20:
+    description: number input 20
+    label: number_20
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 20
+      type: number
+  number_21:
+    description: number input 21
+    label: number_21
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 21
+      type: number
+  number_22:
+    description: number input 22
+    label: number_22
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 22
+      type: number
+  number_23:
+    description: number input 23
+    label: number_23
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 23
+      type: number
+  number_24:
+    description: number input 24
+    label: number_24
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 24
+      type: number
+  number_25:
+    description: number input 25
+    label: number_25
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 25
+      type: number
+  number_26:
+    description: number input 26
+    label: number_26
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 26
+      type: number
+  number_27:
+    description: number input 27
+    label: number_27
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 27
+      type: number
+  number_28:
+    description: number input 28
+    label: number_28
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 28
+      type: number
+  number_29:
+    description: number input 29
+    label: number_29
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 29
+      type: number
+  number_30:
+    description: number input 30
+    label: number_30
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 30
+      type: number
+  number_31:
+    description: number input 31
+    label: number_31
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 31
+      type: number
+  number_32:
+    description: number input 32
+    label: number_32
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 32
+      type: number
+  number_33:
+    description: number input 33
+    label: number_33
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 33
+      type: number
+  number_34:
+    description: number input 34
+    label: number_34
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 34
+      type: number
+  number_35:
+    description: number input 35
+    label: number_35
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 35
+      type: number
+  number_36:
+    description: number input 36
+    label: number_36
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 36
+      type: number
+  number_37:
+    description: number input 37
+    label: number_37
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 37
+      type: number
+  number_38:
+    description: number input 38
+    label: number_38
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 38
+      type: number
+  number_39:
+    description: number input 39
+    label: number_39
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 39
+      type: number
+  number_40:
+    description: number input 40
+    label: number_40
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 40
+      type: number
+  number_41:
+    description: number input 41
+    label: number_41
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 41
+      type: number
+  number_42:
+    description: number input 42
+    label: number_42
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 42
+      type: number
+  number_43:
+    description: number input 43
+    label: number_43
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 43
+      type: number
+  number_44:
+    description: number input 44
+    label: number_44
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 44
+      type: number
+  number_45:
+    description: number input 45
+    label: number_45
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 45
+      type: number
+  number_46:
+    description: number input 46
+    label: number_46
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 46
+      type: number
+  number_47:
+    description: number input 47
+    label: number_47
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 47
+      type: number
+  number_48:
+    description: number input 48
+    label: number_48
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 48
+      type: number
+  number_49:
+    description: number input 49
+    label: number_49
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 49
+      type: number
+  number_50:
+    description: number input 50
+    label: number_50
+    type: ref_contentSchema
+    contentSchema:
+      title: number input 50
+      type: number
 outputs:
   json_outputs:
     description: json file with outputs
@@ -193,4 +459,270 @@ outputs:
     type: ref_contentSchema
     contentSchema:
       title: number output 12
+      type: number
+  number_13:
+    description: number output 13
+    label: number_13
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 13
+      type: number
+  number_14:
+    description: number output 14
+    label: number_14
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 14
+      type: number
+  number_15:
+    description: number output 15
+    label: number_15
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 15
+      type: number
+  number_16:
+    description: number output 16
+    label: number_16
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 16
+      type: number
+  number_17:
+    description: number output 17
+    label: number_17
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 17
+      type: number
+  number_18:
+    description: number output 18
+    label: number_18
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 18
+      type: number
+  number_19:
+    description: number output 19
+    label: number_19
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 19
+      type: number
+  number_20:
+    description: number output 20
+    label: number_20
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 20
+      type: number
+  number_21:
+    description: number output 21
+    label: number_21
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 21
+      type: number
+  number_22:
+    description: number output 22
+    label: number_22
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 22
+      type: number
+  number_23:
+    description: number output 23
+    label: number_23
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 23
+      type: number
+  number_24:
+    description: number output 24
+    label: number_24
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 24
+      type: number
+  number_25:
+    description: number output 25
+    label: number_25
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 25
+      type: number
+  number_26:
+    description: number output 26
+    label: number_26
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 26
+      type: number
+  number_27:
+    description: number output 27
+    label: number_27
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 27
+      type: number
+  number_28:
+    description: number output 28
+    label: number_28
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 28
+      type: number
+  number_29:
+    description: number output 29
+    label: number_29
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 29
+      type: number
+  number_30:
+    description: number output 30
+    label: number_30
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 30
+      type: number
+  number_31:
+    description: number output 31
+    label: number_31
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 31
+      type: number
+  number_32:
+    description: number output 32
+    label: number_32
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 32
+      type: number
+  number_33:
+    description: number output 33
+    label: number_33
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 33
+      type: number
+  number_34:
+    description: number output 34
+    label: number_34
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 34
+      type: number
+  number_35:
+    description: number output 35
+    label: number_35
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 35
+      type: number
+  number_36:
+    description: number output 36
+    label: number_36
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 36
+      type: number
+  number_37:
+    description: number output 37
+    label: number_37
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 37
+      type: number
+  number_38:
+    description: number output 38
+    label: number_38
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 38
+      type: number
+  number_39:
+    description: number output 39
+    label: number_39
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 39
+      type: number
+  number_40:
+    description: number output 40
+    label: number_40
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 40
+      type: number
+  number_41:
+    description: number output 41
+    label: number_41
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 41
+      type: number
+  number_42:
+    description: number output 42
+    label: number_42
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 42
+      type: number
+  number_43:
+    description: number output 43
+    label: number_43
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 43
+      type: number
+  number_44:
+    description: number output 44
+    label: number_44
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 44
+      type: number
+  number_45:
+    description: number output 45
+    label: number_45
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 45
+      type: number
+  number_46:
+    description: number output 46
+    label: number_46
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 46
+      type: number
+  number_47:
+    description: number output 47
+    label: number_47
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 47
+      type: number
+  number_48:
+    description: number output 48
+    label: number_48
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 48
+      type: number
+  number_49:
+    description: number output 49
+    label: number_49
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 49
+      type: number
+  number_50:
+    description: number output 50
+    label: number_50
+    type: ref_contentSchema
+    contentSchema:
+      title: number output 50
       type: number

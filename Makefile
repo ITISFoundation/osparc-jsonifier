@@ -15,7 +15,7 @@ define _bumpversion
 	# upgrades as $(subst $(1),,$@) version, commits and tags
 	@docker run --rm -v $(PWD):/${DOCKER_IMAGE_NAME} \
 		-u $(shell id -u):$(shell id -g) \
-		itisfoundation/ci-service-integration-library:latest \
+		itisfoundation/ci-service-integration-library:v2.1.27 \
 		sh -c "cd /${DOCKER_IMAGE_NAME} && bump2version --verbose --list --config-file $(1) $(subst $(2),,$@)"
 endef
 
@@ -29,7 +29,7 @@ version-patch version-minor version-major: .bumpversion.cfg ## increases service
 compose-spec: ## runs ooil to assemble the docker-compose.yml file
 	@docker run --rm -v $(PWD):/${DOCKER_IMAGE_NAME} \
 		-u $(shell id -u):$(shell id -g) \
-		itisfoundation/ci-service-integration-library:latest \
+		itisfoundation/ci-service-integration-library:v2.1.27 \
 		sh -c "cd /${DOCKER_IMAGE_NAME} && ooil compose"
 
 clean:
@@ -51,6 +51,7 @@ run-local: build	## runs image with local configuration
 	rm -rf validation-tmp
 	cp -r validation validation-tmp
 	docker compose --file docker-compose-local.yml up
+	python tests/test_run_local.py
 
 .PHONY: publish-local
 publish-local: ## push to local throw away registry to test integration

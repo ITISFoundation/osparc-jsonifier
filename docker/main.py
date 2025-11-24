@@ -15,8 +15,8 @@ INPUT_CONF_KEY = "settings"
 CONF_SCHEMA_FILENAME = "settings_json_schema.json"
 DEFAULT_SETTINGS_FILEPATH = "settings_default.json"
 
-NUMBER_OF_INPUTS = 12
-NUMBER_OF_OUTPUTS = 12
+NUMBER_OF_INPUTS = 50
+NUMBER_OF_OUTPUTS = 50
 
 def main():
     """Main"""
