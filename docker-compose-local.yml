@@ -1,6 +1,6 @@
 services:
   jsonifier:
-    image: simcore/services/comp/jsonifier:1.2.1
+    image: simcore/services/comp/jsonifier:1.3.0
     environment:
       - INPUT_FOLDER=/tmp/inputs
       - OUTPUT_FOLDER=/tmp/outputs
